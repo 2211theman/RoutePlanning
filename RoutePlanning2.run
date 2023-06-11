@@ -1,0 +1,8 @@
+reset;
+
+model RoutePlanning2.mod;
+data RoutePlanning.dat;
+
+option solver cplex;
+
+solve;
